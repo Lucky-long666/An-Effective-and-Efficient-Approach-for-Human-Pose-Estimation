@@ -1,10 +1,7 @@
 # XPOSE: Where Vision Meets Precision
 
 ## Project Description:
-XPOSE stands at the forefront of human pose estimation, setting a new standard for precision and efficiency. It represents a state-of-the-art, efficient single-stage method that excels at estimating the poses of multiple individuals within complex scenes. XPOSE adopts a groundbreaking approach by modeling both keypoints and poses as distinct objects, meticulously analyzed within a dense anchor-based detection framework.
-
-Xpose stands as one of my advanced projects, representing the culmination of expertise and innovation in computer vision. It is a cutting-edge human pose estimation project that combines the power of PyTorch and YOLOv5 (You Only Look Once version 5) for object detection. Xpose is meticulously designed to accurately and efficiently detect and predict the positions of key body keypoints in images.
-
+The project focuses on the human pose estimation task, which identifies and classifies the poses of human body parts and joints in images or videos. The project presents an efficient single-stage approach based on YOLOv5 (You Only Look Once version 5), which excels at estimating the poses of multiple individuals within complex scenes. Specially, I model both keypoints and poses as distinct objects, and then meticulously analyze these objects within a dense anchor-based detection framework. Since the presented method leverages YOLOv5 for object detection on the video, the approach can accurately and efficiently detect the human keypoints in the given image/video. By the parameter-efficient tuning and data augmentation techniques, I can train efficiently the utilized model with YOLOv5 on PyTorch.
 ## Key Features:
 
 ### Multi-Variant Precision: Xpose offers three distinct variants, each tailored to specific requirements, reflecting the depth of expertise behind this project:
