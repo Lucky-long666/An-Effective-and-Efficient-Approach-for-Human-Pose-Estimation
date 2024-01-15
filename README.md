@@ -1,4 +1,4 @@
-# XPOSE: Where Vision Meets Precision
+#  An Effective and Efficient Approach for Human Pose Estimation
 
 ## Project Description:
 The project focuses on the human pose estimation task, which identifies and classifies the poses of human body parts and joints in images or videos. The project presents an efficient single-stage approach based on YOLOv5 (You Only Look Once version 5), which excels at estimating the poses of multiple individuals within complex scenes. Specially, I model both keypoints and poses as distinct objects, and then meticulously analyze these objects within a dense anchor-based detection framework. Since the presented method leverages YOLOv5 for object detection on the video, the approach can accurately and efficiently detect the human keypoints in the given image/video. By the parameter-efficient tuning and data augmentation techniques, I can train efficiently the utilized model with YOLOv5 on PyTorch.
